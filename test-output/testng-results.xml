@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[STARTING 1065 BUSINESS RETURN]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[opened a preparer-1]]>
+    </line>
+    <line>
+      <![CDATA[opened a preparer]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[ADDED FINANCIAL INCOME STATEMENT]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[ADDED BALANCE SHEET]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[COMPLETED SCH 1065 FORM]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-04T09:44:46 PST" name="Suite" finished-at="2025-03-04T09:45:56 PST" duration-ms="69730">
+    <groups>
+    </groups>
+    <test started-at="2025-03-04T09:44:46 PST" name="QA-ADDBUSINESSRETURN" finished-at="2025-03-04T09:45:56 PST" duration-ms="69671">
+      <class name="testcases.AddaNewReturn">
+        <test-method is-config="true" signature="login(java.lang.String,java.lang.String)[pri:0, instance:testcases.AddaNewReturn@750f64fe]" started-at="2025-03-04T09:44:47 PST" name="login" finished-at="2025-03-04T09:44:56 PST" duration-ms="9508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prod]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="add1065return(java.lang.String,java.lang.String)[pri:0, instance:testcases.AddaNewReturn@750f64fe]" started-at="2025-03-04T09:44:56 PST" name="add1065return" finished-at="2025-03-04T09:45:56 PST" duration-ms="60099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prod]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[STARTING 1065 BUSINESS RETURN]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[opened a preparer-1]]>
+            </line>
+            <line>
+              <![CDATA[opened a preparer]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[ADDED FINANCIAL INCOME STATEMENT]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[ADDED BALANCE SHEET]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[COMPLETED SCH 1065 FORM]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add1065return -->
+        <test-method is-config="true" signature="closeBrowser(java.lang.String)[pri:0, instance:testcases.AddaNewReturn@750f64fe]" started-at="2025-03-04T09:45:56 PST" name="closeBrowser" finished-at="2025-03-04T09:45:56 PST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.AddaNewReturn -->
+    </test> <!-- QA-ADDBUSINESSRETURN -->
+    <test started-at="2025-03-04T09:45:56 PST" name="Test" finished-at="2025-03-04T09:45:56 PST" duration-ms="2">
+      <class name="testcases.AddaNewReturn">
+        <test-method is-config="true" signature="startReports()[pri:0, instance:testcases.AddaNewReturn@750f64fe]" started-at="2025-03-04T09:44:46 PST" name="startReports" finished-at="2025-03-04T09:44:46 PST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReports -->
+        <test-method is-config="true" signature="endReports()[pri:0, instance:testcases.AddaNewReturn@750f64fe]" started-at="2025-03-04T09:45:56 PST" name="endReports" finished-at="2025-03-04T09:45:57 PST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReports -->
+      </class> <!-- testcases.AddaNewReturn -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
